@@ -12,13 +12,13 @@ const { version } = require("./package.json")
 require('dotenv').config(); 
 
 //======= Change settings =======\\
-global.owner = process.env.OWNER_NUMBER || "2347036214381"
-global.botname = process.env.BOT_NAME || "αrch md"
-global.ownername = process.env.OWNER_NAME || "Ednut"; //set bot owner name here 
-global.prefix = process.env.PREFIX || "."; // your desired prefix symbol only
+global.owner = process.env.OWNER_NUMBER || "255673295585"
+global.botname = process.env.BOT_NAME || "PERFECT-MD"
+global.ownername = process.env.OWNER_NAME || "llyperfect🇹🇿"; //set bot owner name here 
+global.prefix = process.env.PREFIX || "-"; // your desired prefix symbol only
 global.timezone = process.env.TIME_ZONE || "Africa/Lagos";
-global.author = process.env.AUTHOR  || "Ednut";
-global.packname = process.env.PACK_NAME  || "Arch Md ²⁵";
+global.author = process.env.AUTHOR  || "llyperfect";
+global.packname = process.env.PACK_NAME  || "perfect Md ²⁵";
 global.startup = process.env.STARTUP_MSG === 'true';
 global.typeMenu = process.env.MENU_TYPE  || "v2";
 global.onlypc = process.env.ONLYPC_MSG  || "Sorry buddy the bot won't work directly in group chat to reduce spam use in private chat";
